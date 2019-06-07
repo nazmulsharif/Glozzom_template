@@ -1,0 +1,154 @@
+h2{
+	color: #fff!important;
+}
+.navActive{
+	color: #fff;
+}
+.navbar{
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.carousel-item{
+	min-height: 350px;
+
+}
+
+.carousel-img-1{
+	background: url('../images/1.jpg');
+	background-size: cover;
+}
+.carousel-img-2{
+	background: url('../images/2.jpg');
+	background-size: cover;
+}
+.carousel-img-3{
+	background: url('../images/3.jpg');
+	background-size: cover;
+}
+.carousel-img-4{
+	background: url('../images/5.jpg');
+	background-size: cover;
+}
+.carousel-caption-background{
+	background-color: rgba(0,0,0,.5);
+
+}
+ #homeCard .fa{
+	font-size: 50px;
+}
+#getStarted{
+	background: url('../images/1.jpg');
+	background-size: cover;
+	min-height: 180px;
+	position: relative;
+}
+.dark-overlay{
+	background: rgba(0, 0, 0, .7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+#content-image{
+
+}
+#content-image img{
+	height: 250px;
+}
+#video-section{
+	background: url('../images/2.jpg');
+	min-height:200px;
+	position: relative;
+	background-attachment: fixed;
+	
+}
+.video-section-dark-overlay{
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+#photoGallery img{
+	width: 350px;
+	height: 200px;
+}
+
+#blog-header{
+	background: url('../images/2.jpg');
+	min-height: 250px;
+	position: relative;
+}
+.blog-header-dark-overlay{
+	background: rgba(0, 0, 0, .5);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.blog-post img{
+	width: 100%;
+	height: 200px;
+}
+#services-header{
+	background: url('../images/3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.services-plan-dark-overlay{
+	background: rgba(0, 0, 0, .7);
+}
+#aboutHeader{
+	background: url('../images/2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	position: relative
+}
+.aboutHeader-dark-overlay{
+	background: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+#whatDoes .image{
+	width: 350px;
+	height: 350px;
+	
+
+}
+#whatDoes .image img{
+	width: 100%;
+	height: 100%
+}
+#aboutContainer{
+	background-color: gray;
+}
+.slick-prev::before, .slick-next::before{
+	color: #000;
+}
+#contactArea{
+	background: url('../images/2.jpg');
+	height: 200px;
+	position: relative;
+}
+.contactArea-dark-overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#contactForm{
+	margin-top: 10px;
+}
+#contactForm p{
+	font-size: 18px;
+}
